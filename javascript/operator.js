@@ -1,0 +1,9 @@
+let a = 32 ;
+let b = 4;
+console.log("a + b =",a+b)
+console.log("a * b =",a*b)
+console.log("a / b =",a/b)
+console.log("a % b =",a%b)
+console.log("a ** b =",a**b)// 32^4 (power)
+console.log("a++ =",a++)// first print then incrnment 
+console.log("++a =",++a)// first incrnment then print   

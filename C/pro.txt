@@ -1,0 +1,21 @@
+URL Encode this: <>20%20
+
+- All numbers are written as they are
+- Letters to change: 
+  - <
+  - >
+  - %
+
+ Accoding to ASCII character of (<)  is  60 . In hexadecimal,  is 
+Written as 3C
+
+Accoding to ASCII character of (>)  is   94. In hexadecimal,  is 
+Written as 3E
+
+Accoding to ASCII character of (%)  is 62  . In hexadecimal,  is 
+Written as 25
+
+
+
+The final URL Encoded string will look like:
+%3C%3E%20%25%20

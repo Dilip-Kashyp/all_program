@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.json": "javascript",
+        "SELF_PRI.C": "cpp"
+    }
+}
