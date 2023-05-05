@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<body>
+    <h2>Form for IT jobs</h2>
+    <form>
+        <label for="fname">First Name:</label>
+        <div>
+            <input type="text" id="fname">
+        </div>
+        <br>
+
+        <label for="lname">Last Name:</label>
+        <div>
+            <input type="text" id="lname">
+        </div>
+        <br>
+        <label for="dob">DOB:</label>
+        <div>
+            <input type="date" id="dob">
+        </div>
+        <br>
+        <label for="mail">Email:</label>
+        <div>
+            <input type="email" id="mail">
+        </div>
+        <br>
+        <label for="no">Phone no.: </label>
+        <div>
+            <input type="number" id="no">
+        </div>
+        <br>
+        <div>
+            <label for="g"> Gender : </label>
+            Male<input type="radio" name="gender" id="g"> Female<input type="radio" name="gender" id="g">
+            Other<input type="radio" name="gender" id="g">
+        </div>
+        <br>
+        <div>
+            <label for="data"> All data is rechecked : </label>
+            <input type="checkbox" id="data">
+        </div>
+        <br>
+        <label for="os"> Operating System: </label>
+        <div>
+            <select name="os" id="os">
+                <option value="ms">Windows</option>
+                <option value="apple">MAC OS</option>
+                <option value="linex">Linex</option>
+            </select>
+        </div>
+        <br>
+        
+        <label for="text">About Yourself : </label>
+        <div> <textarea name="text" 
+            id="text" cols=50" rows="10"></textarea></div>
+        <div>
+            <input type="submit">
+            <input type="reset">
+        </div>
+
+    </form>
+
+</body>
+
+</html>
