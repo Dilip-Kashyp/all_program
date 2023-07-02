@@ -1,0 +1,74 @@
+
+
+.navbar {    
+    background: #a4c290;
+    height: 65px;
+}
+
+.brand {
+    display: flex;
+    padding: 23px;
+}
+
+.control {
+    width: 200px;
+    height: 30px;
+    float: right;
+    margin-right: 150px;
+    border: 1px solid rgb(193, 199, 193);
+    border-radius: 5px;
+    margin-top: -50px;
+    outline-color: rgb(41, 124, 68);
+}
+
+.btn {
+    color: #021702;
+    background-color: #00591324;
+    float: right;
+    clear: right;
+    margin-right: 70px;
+    border: 2px solid #175816;
+    height: 30px;
+    width: 70px;
+    border-radius: 5px;
+    margin-top: -50px;
+}
+    
+
+
+.btn:hover {
+    background-color: #175816;
+    color: rgb(34, 155, 30);
+}
+
+#intro{
+    width: 1100px;
+    margin-left: 16%;
+    border: 3PX solid white;
+}
+
+
+
+
+.leftnavbar{
+    background: #cdecb7;
+    border-right: 4px solid #38a03152;
+    width:15%;
+    margin-top: -1312px;
+}
+
+.hd1{
+    /* position: absolute; */
+    padding: 9px 25px;
+    margin: auto;
+}
+
+.nav-item{
+    padding:21px 0px 13px 13px; 
+}
+
+.hmg1 {
+    margin-left: 400px;
+    width: 694px;
+}
+

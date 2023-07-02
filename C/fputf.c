@@ -1,4 +1,5 @@
 #include <stdio.h>  
+#include <stdlib.h>
 int main(){  
    FILE *fp;  
    fp = fopen("file.txt", "w"); //opening file  
@@ -7,7 +8,7 @@ int main(){
 		exit(0);
 	}
 	else{
-    fprintf(fp, "Hello file by fprintf...\n");  //writing data into file  
+    fputc('a',fp);//writing single character into file    
     fclose(fp); //closing file 
     }
 

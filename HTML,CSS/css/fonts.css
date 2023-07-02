@@ -5,6 +5,10 @@ p{
     line-height: 1.4em;
 }
 #piku{
-    font-size: 20px;
-    color: blue;
+    background-color: #37e5ab40;
+    padding:  12px;
+    border: 12px;
+    border-color: red;
+    margin: 10px;
+
 }
